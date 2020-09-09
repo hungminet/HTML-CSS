@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset = "UTF-8"/>
+	<title>HOME</title>
+	<link rel="stylesheet" href = "layout-home.css"/>
+	<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+
+</head>
+<body>
+	<div class = "wrapper">
+		<!--header-->
+		<header>
+			<div class = "title-info">
+				<div class = "logo">
+					<img src = "./images/logo/logo.png" alt = "logo"/>
+				</div>
+				<div class = "account">My Account</div>
+				<div class = "seacrh">
+					<form action="" method="POST" name="frmSearch">
+						<input type="text" class="input-search" id="txtSearch" name="txtSearch" placeholder="Search..." />
+						<button type="submit" class="button-search">Go</button>
+					</form>
+				</div>
+				<div class ="contact">
+					<div class = "contact-logo">
+						<img src = "./images/contact_logo.png" alt = "phone number"/>
+					</div>
+					<div class = "contact-title">24/7 Support number</div>
+					<div class = "contact-number"><strong>1-555-555-555</strong></div>
+				</div>
+			</div>
+			
+			
+			<div class = "navigator">
+				<div class = "navigator-content">
+					<a href = "/HOTELS" TITLE = "HOTELS">HOTELS</a>
+					<a href = "/VACATION HOMES" TITLE = "VACATION HOMES">VACATION HOMES</a>
+					<a href = "/CAR RENTAILS" TITLE = "CAR RENTAILS">CAR RENTAILS</a>
+					<a href = "/CRUISES" TITLE = "CRUISES">CRUISES</a>
+					<a href = "/TOURS" TITLE = "TOURS">TOURS</a>
+					<a href = "/DESTINATIONS" TITLE = "DESTINATIONS">DESTINATIONS</a>
+					<a href = "/PAGE" TITLE = "PAGE">PAGE</a>
+					<a href = "/BLOG" TITLE = "BLOG">BLOG</a>
+					<a href = "/CONTACT" TITLE = "CONTACT">CONTACT</a>
+					<a href = "/FOR PARTNERS" TITLE = "FOR PARTNERS">FOR PARTNERS</a>
+					<a href = "/PURCHASE THEME" TITLE = "PURCHASE THEME">PURCHASE THEME</a>
+
+				</div>
+			</div>
+		</header>
+		
+		<!--content-->
+			<!--Banner-->
+		<content>	
+			<div class = "banner">
+				<img src = "./images/banner/banner2.jpg"/>
+			
+				<div class = "main_search">
+					
+					<div class = "what">
+						<div class = "what-title">
+							<h2>What?</h2>
+						</div>
+						<form action =""  method="POST" name="frmFnd_what">
+							<input type = "radio" id = "rdb_hotel" name = "rdb_mainsearch"/>
+							<label for = "rdb_hotel">Hotel</label><br>
+							<input type = "radio" id = "rdb_rentcar" name = "rdb_mainsearch"/>
+							<label for = "rdb_rentcar">Rent a Car</label><br>
+							<input type = "radio" id = "rdb_cruise" name = "rdb_mainsearch"/>
+							<label for = "rdb_cruise">Cruise</label><br>
+							<input type = "radio" id = "rdb_self_catering" name = "rdb_mainsearch"/>
+							<label for = "rdb_self_catering">Self Catering</label><br>
+							<input type = "radio" id = "rdb_tour" name = "rdb_mainsearch"/>
+							<label for = "rdb_tour">Tour</label><br>
+						</form>
+					</div>
+					<div class = "when">
+						<div class = "when-title">
+							<h2>When?</h2>
+						</div>
+						<form action =""  method="POST" name="frmFnd_date">
+							<label for = "dtp_checkin">Check-in date:   </label>
+							<input type = "date" id = "dtp_checkin" name = "dtpwhen"/>
+							<div class = "line-20"></div>
+							<label for = "dtp_checkout">Check-out date: </label>
+							<input type = "date" id = "dtp_checkout" name = "dtpwhen"/>
+						</form>
+					</div>
+					<button type = "submit" class="button-search_main">SEARCH</button>
+				</div>
+			</div>
+			<!--offer-->
+			
+		
+			<div class = "offers">
+				
+				<div class = "lastest-offer">
+					<h2>Explor our lastest offers</h2>
+					<div class = "offeritems">
+						<img src = "./images/offers/offer.jpg" alt = "item">
+						<div class = "offer-name">Green delight</div>
+						<div class = "offer-loc">Adddress 156, Australlia</div>
+						<button type = "submit" class="button-moreinf">MORE INFO</button>
+					
+						
+					</div>
+				</div>
+				<div class = "lastest-vacation-homes">
+					<h2>Explor our lastest vacation homes</h2>
+					<div class = "offeritems">
+						<img src = "./images/offers/offer.jpg" alt = "item">
+						<div class = "offer-name">Green delight</div>
+						<div class = "offer-loc">Adddress 156, Australlia</div>				
+						<div class="stars">
+						 <form action="">
+							<input class="star star-5" id="star-5" type="radio" name="star"/>
+							<label class="star star-5" for="star-5"></label>
+							<input class="star star-4" id="star-4" type="radio" name="star"/>
+							<label class="star star-4" for="star-4"></label>
+							<input class="star star-3" id="star-3" type="radio" name="star"/>
+							<label class="star star-3" for="star-3"></label>
+							<input class="star star-2" id="star-2" type="radio" name="star"/>
+							<label class="star star-2" for="star-2"></label>
+							<input class="star star-1" id="star-1" type="radio" name="star"/>
+							<label class="star star-1" for="star-1"></label>
+						 </form>
+						</div>
+						<div class = "price">
+							<p>Price per night from <strong>$96</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</content>
+	</div>
+</body>
+<footer>
+</footer>
+
+</html>
