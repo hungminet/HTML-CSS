@@ -6,7 +6,7 @@ body{background-color:#fffff6;}
 	}
 .line-20{clear:both;margin-bottom:20px;}
 header{
-	width:100%;
+	width:95%;
 	height:101px;
 	clear:both;
 	padding-left:30px;
@@ -77,7 +77,7 @@ header{
 .banner{
 	height:400px;
 	width:100%;
-
+	background-image: url("./images/banner/banner2.jpg"); 
 }
 .banner img{
 	height:100%;
@@ -86,23 +86,25 @@ header{
 }
 .main_search{
 	height:190px;
-	width:80%;
-	margin-left:100px;
+	width:700px;
+	margin-left:250px;
+	margin-top:200px;
 	float:left;
-	background-color:#fbfbfb
+	background-color:#ffffff;
+	border-style:groove;	
 }
 .what{
 	height:150px;
 	width:300px;
 	float:left;
-	padding-left:30px
+	padding-left:30px;
+	border-right-style:dashed;
+	border-right-width:1px;
 }
 .when-title{
-	
 	width:70px;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
-	
 }
 .what-title{
 	
@@ -111,6 +113,23 @@ header{
 	border-bottom-style:solid;
 	
 }
+.what label:hover
+{
+	color:#59c8c2;
+	cursor: pointer;
+}
+.what input:hover
+{
+	color:#59c8c2;
+	cursor: pointer;
+}
+
+.when input:hover
+{
+	color:#59c8c2;
+	cursor: pointer;
+}
+
 .when{
 	height:150px;
 	width:300px;

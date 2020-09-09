@@ -54,30 +54,37 @@
 			<!--Banner-->
 		<content>	
 			<div class = "banner">
-				<img src = "./images/banner/banner2.jpg"/>
+
 			
 				<div class = "main_search">
 					
 					<div class = "what">
 						<div class = "what-title">
-							<h2>What?</h2>
+							<p>What?<p>
 						</div>
 						<form action =""  method="POST" name="frmFnd_what">
-							<input type = "radio" id = "rdb_hotel" name = "rdb_mainsearch"/>
-							<label for = "rdb_hotel">Hotel</label><br>
-							<input type = "radio" id = "rdb_rentcar" name = "rdb_mainsearch"/>
-							<label for = "rdb_rentcar">Rent a Car</label><br>
-							<input type = "radio" id = "rdb_cruise" name = "rdb_mainsearch"/>
-							<label for = "rdb_cruise">Cruise</label><br>
-							<input type = "radio" id = "rdb_self_catering" name = "rdb_mainsearch"/>
-							<label for = "rdb_self_catering">Self Catering</label><br>
-							<input type = "radio" id = "rdb_tour" name = "rdb_mainsearch"/>
-							<label for = "rdb_tour">Tour</label><br>
+							<div style="width: 50%; float:left">
+								<input type = "radio" id = "rdb_hotel" name = "rdb_mainsearch"/>
+								<label for = "rdb_hotel">Hotel</label><br>
+															<div class = "line-20"></div>
+								<input type = "radio" id = "rdb_rentcar" name = "rdb_mainsearch"/>
+								<label for = "rdb_rentcar">Rent a Car</label><br>
+															<div class = "line-20"></div>
+								<input type = "radio" id = "rdb_cruise" name = "rdb_mainsearch"/>
+								<label for = "rdb_cruise">Cruise</label><br>
+							</div>
+							<div style="width: 50%; float:right">							
+								<input type = "radio" id = "rdb_self_catering" name = "rdb_mainsearch"/>
+								<label for = "rdb_self_catering">Self Catering</label><br>
+															<div class = "line-20"></div>
+								<input type = "radio" id = "rdb_tour" name = "rdb_mainsearch"/>
+								<label for = "rdb_tour">Tour</label><br>
+							</div>
 						</form>
 					</div>
 					<div class = "when">
 						<div class = "when-title">
-							<h2>When?</h2>
+							<p>When?</p>
 						</div>
 						<form action =""  method="POST" name="frmFnd_date">
 							<label for = "dtp_checkin">Check-in date:   </label>
