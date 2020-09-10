@@ -119,19 +119,24 @@ header{
 	border-right-color:#37a8a2;
 }
 .when-title{
+	font-family:fantasy;
+	color:#37a8a2;
 	text-align:center;
 	width:60px;
 	margin-left:40%;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
+	border-bottom-color:#37a8a2;
 }
 .what-title{
+	font-family:fantasy;
+	color:#37a8a2;
 	text-align:center;
 	margin-left:80px;
 	width:70px;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
-	
+		border-bottom-color:#37a8a2;
 }
 .where-title{
 	text-align:center;
@@ -139,7 +144,19 @@ header{
 	width:70px;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
-	
+	border-bottom-color:#37a8a2;
+}
+.where-title p{
+	font-family:fantasy;
+	color:#37a8a2
+}
+.when-title p{
+	font-family:fantasy;
+	color:#37a8a2
+}
+.what-title p{
+	font-family:fantasy;
+	color:#37a8a2
 }
 .what label:hover
 {
@@ -159,7 +176,8 @@ header{
 }
 .main_search button:hover{
 	cursor: pointer;
-	color:#59c8c2
+	color:#59c8c2;
+	border:1px;
 }
 .where{
 	width:250px;
@@ -193,7 +211,7 @@ header{
 .offeritems{
 	width:270px;
 	height:320px;
-	border-style: dashed;
+	border-style: solid;
 	border-width:1px;
 	border-color:#37a8a2;
 	float:left;
@@ -204,6 +222,25 @@ header{
 	width:270px;
 	height:200px;
 	
+}
+.offer-name {
+	margin:25px;
+	font-family:fantasy;
+	color:#37a8a2
+}
+.offeritems button{
+	margin-top:10px;
+	margin-left:90px;
+	width:90px;
+	height:30px;
+	border-radius:15px;
+	background-color:#37a8a2;
+	color:#fffff6;
+}
+.offeritems button:hover{
+	color:#59c8c2;
+	cursor: pointer;
+	border:1px;
 }
 .lastest-vacation-homes h2{
 	margin-top:50px;
