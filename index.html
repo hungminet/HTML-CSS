@@ -60,23 +60,23 @@
 					
 					<div class = "what">
 						<div class = "what-title">
-							<p>What?<p>
+							<p>What?</p>
 						</div>
 						<form action =""  method="POST" name="frmFnd_what">
 							<div style="width: 50%; float:left">
 								<input type = "radio" id = "rdb_hotel" name = "rdb_mainsearch"/>
 								<label for = "rdb_hotel">Hotel</label><br>
-															<div class = "line-20"></div>
+															<div class = "line-10"></div>
 								<input type = "radio" id = "rdb_rentcar" name = "rdb_mainsearch"/>
 								<label for = "rdb_rentcar">Rent a Car</label><br>
-															<div class = "line-20"></div>
+															<div class = "line-10"></div>
 								<input type = "radio" id = "rdb_cruise" name = "rdb_mainsearch"/>
 								<label for = "rdb_cruise">Cruise</label><br>
 							</div>
 							<div style="width: 50%; float:right">							
 								<input type = "radio" id = "rdb_self_catering" name = "rdb_mainsearch"/>
 								<label for = "rdb_self_catering">Self Catering</label><br>
-															<div class = "line-20"></div>
+															<div class = "line-10"></div>
 								<input type = "radio" id = "rdb_tour" name = "rdb_mainsearch"/>
 								<label for = "rdb_tour">Tour</label><br>
 							</div>
@@ -86,22 +86,47 @@
 						<div class = "when-title">
 							<p>When?</p>
 						</div>
-						<form action =""  method="POST" name="frmFnd_date">
-							<label for = "dtp_checkin">Check-in date:   </label>
-							<input type = "date" id = "dtp_checkin" name = "dtpwhen"/>
-							<div class = "line-20"></div>
-							<label for = "dtp_checkout">Check-out date: </label>
-							<input type = "date" id = "dtp_checkout" name = "dtpwhen"/>
+						<form  action =""  method="POST" name="frmFnd_date">						
+							<div class = "check-in">
+								<label for = "dtp_checkin">Check-in date:       </label>
+							  	 <input type = "date" id = "dtp_checkin" name = "dtpwhen"/>
+							</div>
+							<div class = "check-out">
+								<label for = "dtp_checkout">Check-out date:</label>
+								<input type = "date" id = "dtp_checkout" name = "dtpwhen"/>
+							</div>
 						</form>
 					</div>
-					<button type = "submit" class="button-search_main">SEARCH</button>
+					
+					<div class = "where">
+						<div class = "where-title">
+							<p>Where?</p>
+						</div>
+						<div class = "location">
+							<div class = "line-20"></div>
+							<form action = "" method = "" name = "frmFnd_location">
+								<label for = "loca">Search location</label>
+								<select name = "dest" id = "dest">
+									<optgroup label = "Trong Nước">
+										<option value = "VL">Vĩnh Long</option>
+										<option value = "PT">Phan Thiết</option>
+										<option value = "TPHCM">Tp HCM</option>
+									</optgroup>
+									<optgroup label = "Ngoài Nước">
+										<option value = "Cali">California</option>
+										<option value = "BacKinh">Bắc Kinh</option>
+									</optgroup>									
+								</select>
+							</form>
+						</div>
+					</div>
+					<button type = "submit" class="button-search_main" >SEARCH</button>
 				</div>
 			</div>
 			<!--offer-->
 			
 		
 			<div class = "offers">
-				
 				<div class = "lastest-offer">
 					<h2>Explor our lastest offers</h2>
 					<div class = "offeritems">

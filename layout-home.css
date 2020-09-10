@@ -5,6 +5,7 @@ body{background-color:#fffff6;}
 	margin:0 auto;
 	}
 .line-20{clear:both;margin-bottom:20px;}
+.line-10{clear:both;margin-bottom:10px;}
 header{
 	width:95%;
 	height:101px;
@@ -85,29 +86,55 @@ header{
 	opacity: 0.6;
 }
 .main_search{
-	height:190px;
-	width:700px;
-	margin-left:250px;
+	height:160px;
+	width:1000px;
+	margin-left:100px;
 	margin-top:200px;
 	float:left;
-	background-color:#ffffff;
-	border-style:groove;	
+	background-color:#fffff6;
+	border-style:ridge;	
+	border-width:5px;
+	border-color:#37a8a2;
 }
+.main_search button{
+	margin-top:20px;
+	margin-left:430px;
+	width:100px;
+	height:30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color:#37a8a2;
+	color:#fffff6;
+	border-size:70%;
+}
+
 .what{
-	height:150px;
-	width:300px;
+	height:70%;
+	width:250px;
 	float:left;
 	padding-left:30px;
-	border-right-style:dashed;
+	border-right-style: dashed;
 	border-right-width:1px;
+	border-right-color:#37a8a2;
 }
 .when-title{
-	width:70px;
+	text-align:center;
+	width:60px;
+	margin-left:40%;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
 }
 .what-title{
+	text-align:center;
+	margin-left:80px;
+	width:70px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
 	
+}
+.where-title{
+	text-align:center;
+	margin-left:130px;
 	width:70px;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
@@ -129,16 +156,32 @@ header{
 	color:#59c8c2;
 	cursor: pointer;
 }
-
-.when{
-	height:150px;
-	width:300px;
-	float:right;
-	padding-right:30px
+.where{
+	width:250px;
+	float:left;
+	height:70%;
 }
-.main_search button{
-	margin-left:100px;
-	margin-bottom:;
-	margin-top:;
-	margin-right:;
+
+.when form{
+	margin-top: 20px;
+}
+.when{
+	margin-left:2px;
+	height:60%;
+	width:390px;
+	float:left;
+	border-right-style: dashed;
+	border-right-width:1px;
+	border-right-color:#37a8a2;
+}
+
+.check-in{
+	margin-left:0px;
+	width:50%;
+	float:left;
+}
+
+.check-out{
+	width:50%;
+	float:right;
 }
