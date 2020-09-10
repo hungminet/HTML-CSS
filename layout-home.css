@@ -1,7 +1,7 @@
 *{margin:0;padding:0;font-family:"Segoe UI";}
 body{background-color:#fffff6;}
 .wrapper{
-	width:100%;
+	width:1260px;
 	margin:0 auto;
 	}
 .line-20{clear:both;margin-bottom:20px;}
@@ -185,7 +185,30 @@ header{
 	width:50%;
 	float:left;
 }
-
+.lastest-offer h2
+{
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.offeritems{
+	width:270px;
+	height:320px;
+	border-style: dashed;
+	border-width:1px;
+	border-color:#37a8a2;
+	float:left;
+	margin-left: 20px;
+	background-color:white
+}
+.offeritems img{
+	width:270px;
+	height:200px;
+	
+}
+.lastest-vacation-homes h2{
+	margin-top:50px;
+	margin-bottom:20px;
+}
 .check-out{
 	width:50%;
 	float:right;
