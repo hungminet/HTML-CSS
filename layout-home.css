@@ -95,14 +95,15 @@ header{
 	border-style:ridge;	
 	border-width:5px;
 	border-color:#37a8a2;
+	border-radius: 8px;
 }
 .main_search button{
 	margin-top:20px;
 	margin-left:430px;
 	width:100px;
 	height:30px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 	background-color:#37a8a2;
 	color:#fffff6;
 	border-size:70%;
@@ -156,6 +157,10 @@ header{
 	color:#59c8c2;
 	cursor: pointer;
 }
+.main_search button:hover{
+	cursor: pointer;
+	color:#59c8c2
+}
 .where{
 	width:250px;
 	float:left;
@@ -184,4 +189,7 @@ header{
 .check-out{
 	width:50%;
 	float:right;
+}
+.offers{
+	margin-left:30px;
 }
