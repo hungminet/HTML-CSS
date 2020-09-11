@@ -1,0 +1,285 @@
+*{margin:0;padding:0;font-family:"Segoe UI";}
+body{background-color:#fffff6;}
+.wrapper{
+	width:1260px;
+	margin:0 auto;
+	}
+.line-20{clear:both;margin-bottom:20px;}
+.line-10{clear:both;margin-bottom:10px;}
+header{
+	width:95%;
+	height:101px;
+	clear:both;
+	padding-left:30px;
+	}
+.title-info
+{
+	width:100%;
+	height:80px;
+	background-color:#ffffff;
+
+}
+.logo{	
+	float:left;
+	width:250px;
+	height:80px;
+}
+.logo img{	
+	width:100%;
+	height:100%;
+}
+.account{
+	padding-top:25px;
+	padding-right:85px;
+	float:right;
+}
+.seacrh{
+	float:right;
+	padding:25px;
+}
+	
+.contact{
+	float:right;
+	width:200px;
+	height:80px;
+}
+.contact-logo {
+	float:left;
+	height:35px;
+	width:35px;
+}
+.contact-logo img{
+	float:left;
+	height:100%;
+	width:100%;
+	padding-top:18px;
+}
+.contact-title{
+	opacity: 0.5;
+	float:right;
+	padding-top:16px;
+}
+.contact-number{
+	opacity: 0.5;
+	float:right;
+	padding-right:35px;
+}
+.navigator{
+	background-color:#c0b3ab;
+}
+.navigator-content a{
+	text-decoration: none;
+	color:#fcfbf9;
+	padding:10px;
+	font-weight:260%;
+}
+.navigator-content a:hover{color:#886b32;}
+
+.banner{
+	height:400px;
+	width:100%;
+	background-image: url("./images/banner/banner2.jpg"); 
+}
+.banner img{
+	height:100%;
+	width:100%;
+	opacity: 0.6;
+}
+.main_search{
+	height:160px;
+	width:1000px;
+	margin-left:100px;
+	margin-top:200px;
+	float:left;
+	background-color:#fffff6;
+	border-style:ridge;	
+	border-width:5px;
+	border-color:#37a8a2;
+	border-radius: 8px;
+}
+.main_search button{
+	margin-top:20px;
+	margin-left:430px;
+	width:100px;
+	height:30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color:#37a8a2;
+	color:#fffff6;
+	border-size:70%;
+}
+
+.what{
+	height:70%;
+	width:250px;
+	float:left;
+	padding-left:30px;
+	border-right-style: dashed;
+	border-right-width:1px;
+	border-right-color:#37a8a2;
+}
+.when-title{
+	font-family:fantasy;
+	color:#37a8a2;
+	text-align:center;
+	width:60px;
+	margin-left:40%;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#37a8a2;
+}
+.what-title{
+	font-family:fantasy;
+	color:#37a8a2;
+	text-align:center;
+	margin-left:80px;
+	width:70px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+		border-bottom-color:#37a8a2;
+}
+.where-title{
+	text-align:center;
+	margin-left:130px;
+	width:70px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#37a8a2;
+}
+.where-title p{
+	font-family:fantasy;
+	color:#37a8a2
+}
+.when-title p{
+	font-family:fantasy;
+	color:#37a8a2
+}
+.what-title p{
+	font-family:fantasy;
+	color:#37a8a2
+}
+.what label:hover
+{
+	color:#59c8c2;
+	cursor: pointer;
+}
+.what input:hover
+{
+	color:#59c8c2;
+	cursor: pointer;
+}
+
+.when input:hover
+{
+	color:#59c8c2;
+	cursor: pointer;
+}
+.main_search button:hover{
+	cursor: pointer;
+	color:#59c8c2;
+	border:1px;
+}
+.where{
+	width:250px;
+	float:left;
+	height:70%;
+}
+
+.when form{
+	margin-top: 20px;
+}
+.when{
+	margin-left:2px;
+	height:60%;
+	width:390px;
+	float:left;
+	border-right-style: dashed;
+	border-right-width:1px;
+	border-right-color:#37a8a2;
+}
+
+.check-in{
+	margin-left:0px;
+	width:50%;
+	float:left;
+}
+.lastest-offer h2
+{
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.offeritems{
+	width:270px;
+	height:320px;
+	border-style: solid;
+	border-width:1px;
+	border-color:#37a8a2;
+	float:left;
+	margin-left: 20px;
+	background-color:white
+}
+.offeritems img{
+	width:270px;
+	height:200px;
+	
+}
+.offer-name {
+	margin:25px;
+	font-family:fantasy;
+	color:#37a8a2
+}
+.offeritems button{
+	margin-top:10px;
+	margin-left:90px;
+	width:90px;
+	height:30px;
+	border-radius:15px;
+	background-color:#37a8a2;
+	color:#fffff6;
+}
+.offeritems button:hover{
+	color:#59c8c2;
+	cursor: pointer;
+	border:1px;
+}
+.lastest-vacation-homes h2{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.check-out{
+	width:50%;
+	float:right;
+}
+.offers{
+	margin-left:30px;
+}
+.offer-name-home {
+	margin:5px;
+	font-family:fantasy;
+	color:#37a8a2
+}
+.offer-loc{
+	opacity:0.7;
+	font-size:80%;
+}
+.price{
+	margin-top:0px;
+}
+.float-left{
+	float:left:
+}
+.num_pri{
+	float:right
+}
+footer{
+	margin-top:400px;
+	border-style:solid;
+	height:30px;
+	weight:100%;
+	background-color:#37a8a2;
+	text-align:center;
+	opacity:0.6;
+}
+footer p{
+	float:right;
+}

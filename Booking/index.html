@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset = "UTF-8"/>
+	<title>HOME</title>
+	<link rel="stylesheet" href = "layout-home.css"/>
+	<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+
+</head>
+<body>
+	<div class = "wrapper">
+		<!--header-->
+		<header>
+			<div class = "title-info">
+				<div class = "logo">
+					<img src = "./images/logo/logo.png" alt = "logo"/>
+				</div>
+				<div class = "account">My Account</div>
+				<div class = "seacrh">
+					<form action="" method="POST" name="frmSearch">
+						<input type="text" class="input-search" id="txtSearch" name="txtSearch" placeholder="Search..." />
+						<button type="submit" class="button-search">Go</button>
+					</form>
+				</div>
+				<div class ="contact">
+					<div class = "contact-logo">
+						<img src = "./images/contact_logo.png" alt = "phone number"/>
+					</div>
+					<div class = "contact-title">24/7 Support number</div>
+					<div class = "contact-number"><strong>1-555-555-555</strong></div>
+				</div>
+			</div>
+			
+			
+			<div class = "navigator">
+				<div class = "navigator-content">
+					<a href = "/HOTELS" TITLE = "HOTELS">HOTELS</a>
+					<a href = "/VACATION HOMES" TITLE = "VACATION HOMES">VACATION HOMES</a>
+					<a href = "/CAR RENTAILS" TITLE = "CAR RENTAILS">CAR RENTAILS</a>
+					<a href = "/CRUISES" TITLE = "CRUISES">CRUISES</a>
+					<a href = "/TOURS" TITLE = "TOURS">TOURS</a>
+					<a href = "/DESTINATIONS" TITLE = "DESTINATIONS">DESTINATIONS</a>
+					<a href = "/PAGE" TITLE = "PAGE">PAGE</a>
+					<a href = "/BLOG" TITLE = "BLOG">BLOG</a>
+					<a href = "/CONTACT" TITLE = "CONTACT">CONTACT</a>
+					<a href = "/FOR PARTNERS" TITLE = "FOR PARTNERS">FOR PARTNERS</a>
+					<a href = "/PURCHASE THEME" TITLE = "PURCHASE THEME">PURCHASE THEME</a>
+
+				</div>
+			</div>
+		</header>
+		
+		<!--content-->
+			<!--Banner-->
+		<content>	
+			<div class = "banner">
+
+			
+				<div class = "main_search">
+					
+					<div class = "what">
+						<div class = "what-title">
+							<p>What?</p>
+						</div>
+						<form action =""  method="POST" name="frmFnd_what">
+							<div style="width: 50%; float:left">
+								<input type = "radio" id = "rdb_hotel" name = "rdb_mainsearch"/>
+								<label for = "rdb_hotel">Hotel</label><br>
+															<div class = "line-10"></div>
+								<input type = "radio" id = "rdb_rentcar" name = "rdb_mainsearch"/>
+								<label for = "rdb_rentcar">Rent a Car</label><br>
+															<div class = "line-10"></div>
+								<input type = "radio" id = "rdb_cruise" name = "rdb_mainsearch"/>
+								<label for = "rdb_cruise">Cruise</label><br>
+							</div>
+							<div style="width: 50%; float:right">							
+								<input type = "radio" id = "rdb_self_catering" name = "rdb_mainsearch"/>
+								<label for = "rdb_self_catering">Self Catering</label><br>
+															<div class = "line-10"></div>
+								<input type = "radio" id = "rdb_tour" name = "rdb_mainsearch"/>
+								<label for = "rdb_tour">Tour</label><br>
+							</div>
+						</form>
+					</div>
+					<div class = "when">
+						<div class = "when-title">
+							<p>When?</p>
+						</div>
+						<form  action =""  method="POST" name="frmFnd_date">						
+							<div class = "check-in">
+								<label for = "dtp_checkin">Check-in date:       </label>
+							  	 <input type = "date" id = "dtp_checkin" name = "dtpwhen"/>
+							</div>
+							<div class = "check-out">
+								<label for = "dtp_checkout">Check-out date:</label>
+								<input type = "date" id = "dtp_checkout" name = "dtpwhen"/>
+							</div>
+						</form>
+					</div>
+					
+					<div class = "where">
+						<div class = "where-title">
+							<p>Where?</p>
+						</div>
+						<div class = "location">
+							<div class = "line-20"></div>
+							<form action = "" method = "" name = "frmFnd_location">
+								<label for = "loca">Search location</label>
+								<select name = "dest" id = "dest">
+									<optgroup label = "Trong Nước">
+										<option value = "VL">Vĩnh Long</option>
+										<option value = "PT">Phan Thiết</option>
+										<option value = "TPHCM">Tp HCM</option>
+									</optgroup>
+									<optgroup label = "Ngoài Nước">
+										<option value = "Cali">California</option>
+										<option value = "BacKinh">Bắc Kinh</option>
+									</optgroup>									
+								</select>
+							</form>
+						</div>
+					</div>
+					<button type = "submit" class="button-search_main" >SEARCH</button>
+				</div>
+			</div>
+			<!--offer-->
+			
+		
+			<div class = "offers">
+				<div class = "lastest-offer">
+					<h2>Explor our lastest offers</h2>
+					<div class = "offeritems">
+						<img src = "./images/offers/offer1.png" alt = "item">
+						<div class = "offer-name">We offer premium hotels</div>
+						<hr  width="100%" size="2px" align="center" />
+						<button type = "submit" class="button-moreinf">MORE INFO</button>	
+					</div>
+					<div class = "offeritems">
+						<img src = "./images/offers/offer2.png" alt = "item">
+						<div class = "offer-name">Our car fleet is getting bigger</div>
+						<hr  width="100%" size="2px" align="center" />						
+						<button type = "submit" class="button-moreinf">MORE INFO</button>	
+					</div>
+					<div class = "offeritems">
+						<img src = "./images/offers/offer3.png" alt = "item">
+						<div class = "offer-name">Our amazing cruises</div>
+						<hr  width="100%" size="2px" align="center" />
+						<button type = "submit" class="button-moreinf">MORE INFO</button>	
+					</div>					
+					<div class = "offeritems">
+						<img src = "./images/offers/offer4.png" alt = "item">
+						<div class = "offer-name">Join us on unforgettable tours</div>
+						<hr  width="100%" size="2px" align="center" />						
+						<button type = "submit" class="button-moreinf">MORE INFO</button>	
+					</div>
+				</div>
+				<div class ="line-20"></div>
+				<div class = "lastest-vacation-homes">
+					<h2>Explor our lastest vacation homes</h2>
+					<div class = "offeritems">
+						<img src = "./images/offers/offer1.png" alt = "item">
+						<div class = "offer-name-home">Green delight</div>
+						<div class = "offer-loc">Adddress 156, Australlia</div>				
+						<div class="stars">
+						 <form action="">
+							<input class="star star-5" id="star-5" type="radio" name="star"/>
+							<label class="star star-5" for="star-5"></label>
+							<input class="star star-4" id="star-4" type="radio" name="star"/>
+							<label class="star star-4" for="star-4"></label>
+							<input class="star star-3" id="star-3" type="radio" name="star"/>
+							<label class="star star-3" for="star-3"></label>
+							<input class="star star-2" id="star-2" type="radio" name="star"/>
+							<label class="star star-2" for="star-2"></label>
+							<input class="star star-1" id="star-1" type="radio" name="star"/>
+							<label class="star star-1" for="star-1"></label>
+						 </form>
+						</div>
+						<div class = "price">
+							<p class = "float-left">Price per night from <span
+							 class = "num_pri"><strong>$96</strong></span></p>
+						</div>
+						<button type = "submit" class="button-moreinf">MORE INFO</button>						
+					</div>
+					<div class = "offeritems">
+						<img src = "./images/offers/offer1.png" alt = "item">
+						<div class = "offer-name-home">Green delight</div>
+						<div class = "offer-loc">Adddress 156, Australlia</div>				
+						<div class="stars">
+						 <form action="">
+							<input class="star star-5" id="star-5" type="radio" name="star"/>
+							<label class="star star-5" for="star-5"></label>
+							<input class="star star-4" id="star-4" type="radio" name="star"/>
+							<label class="star star-4" for="star-4"></label>
+							<input class="star star-3" id="star-3" type="radio" name="star"/>
+							<label class="star star-3" for="star-3"></label>
+							<input class="star star-2" id="star-2" type="radio" name="star"/>
+							<label class="star star-2" for="star-2"></label>
+							<input class="star star-1" id="star-1" type="radio" name="star"/>
+							<label class="star star-1" for="star-1"></label>
+						 </form>
+						</div>
+						<div class = "price">
+							<p class = "float-left">Price per night from <span
+							 class = "num_pri"><strong>$96</strong></span></p>
+							 
+						</div>
+						<button type = "submit" class="button-moreinf">MORE INFO</button>						
+					</div>			
+					<div class = "offeritems">
+						<img src = "./images/offers/offer1.png" alt = "item">
+						<div class = "offer-name-home">Green delight</div>
+						<div class = "offer-loc">Adddress 156, Australlia</div>				
+						<div class="stars">
+						 <form action="">
+							<input class="star star-5" id="star-5" type="radio" name="star"/>
+							<label class="star star-5" for="star-5"></label>
+							<input class="star star-4" id="star-4" type="radio" name="star"/>
+							<label class="star star-4" for="star-4"></label>
+							<input class="star star-3" id="star-3" type="radio" name="star"/>
+							<label class="star star-3" for="star-3"></label>
+							<input class="star star-2" id="star-2" type="radio" name="star"/>
+							<label class="star star-2" for="star-2"></label>
+							<input class="star star-1" id="star-1" type="radio" name="star"/>
+							<label class="star star-1" for="star-1"></label>
+						 </form>
+						</div>
+						<div class = "price">
+							<p class = "float-left">Price per night from <span
+							 class = "num_pri"><strong>$96</strong></span></p>
+						</div>
+						<button type = "submit" class="button-moreinf">MORE INFO</button>
+					</div>		
+					<div class = "offeritems">
+						<img src = "./images/offers/offer1.png" alt = "item">
+						<div class = "offer-name-home">Green delight</div>
+						<div class = "offer-loc">Adddress 156, Australlia</div>				
+						<div class="stars">
+						 <form action="">
+							<input class="star star-5" id="star-5" type="radio" name="star"/>
+							<label class="star star-5" for="star-5"></label>
+							<input class="star star-4" id="star-4" type="radio" name="star"/>
+							<label class="star star-4" for="star-4"></label>
+							<input class="star star-3" id="star-3" type="radio" name="star"/>
+							<label class="star star-3" for="star-3"></label>
+							<input class="star star-2" id="star-2" type="radio" name="star"/>
+							<label class="star star-2" for="star-2"></label>
+							<input class="star star-1" id="star-1" type="radio" name="star"/>
+							<label class="star star-1" for="star-1"></label>
+						 </form>
+						</div>
+						<div class = "price">
+							<p class = "float-left">Price per night from <span
+							 class = "num_pri"><strong>$96</strong></span></p>
+						</div>
+						<button type = "submit" class="button-moreinf">MORE INFO</button>
+					</div>							
+				</div>
+			</div>
+		</content>
+	</div>
+</body>
+<footer>
+	<p>&copy Completed by Truong An, September 11,2020</p>
+</footer>
+
+</html>
