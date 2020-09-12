@@ -93,7 +93,7 @@ body{background-color:#fffff6;}
 .content{
 	width:1000px;
 	height:auto;
-	background-color:#433123;
+	/*background-color:#433123;*/
 	margin:0 auto;
 	display:block;
 	overflow:hidden;
@@ -107,23 +107,49 @@ img{
 	height:350px;
 	background-color:#fffff6
 }
-
+a{text-decoration:none;}
+a:hover{
+	color:Silver;
+	cursor:pointer;
+}
 .project2{
 	width:100%;
 	height:350px;
 	background-color:#fffff6
 }
-.news{
-	width:50%;
-	height:350px;
-	background-color:#123465;
-	float:left;
+.news-item-title{
+	height:20%;
+	width:100%;
+	font-size:100%;
+	font-weight:bold;
+	text-align:center;
+	color:Black;
+	
 }
+.news-item-content
+{
+	font-size:70%;
+	font-weight:thin;
+	text-align: justify;
+	color:black;
+}
+
+.news {
+	width:45%;
+	height:550px;
+	max-height:550px;
+
+	float:left;
+
+}
+
 .process{
-	width:50%;
-	height:350px;
-	background-color:#342754;
+	width:45%;
+	height:550px;
+	max-height:550px;
+
 	float:right;
+
 }
 .bank{
 	width:100%;
@@ -131,11 +157,37 @@ img{
 	background-color:#634246;
 	float:left;
 }
+
+
 .gog-map{
 	width:100%;
 	height:300px;
 	background-color:#42546;
 	float:left;
+}
+.table-content{
+	width:100%;
+	height:90%;
+	/*border-style: dashed;*/
+
+}
+.news-items{
+	margin-top:3px;
+	margin-left:2px;
+	margin-bottom:3px;
+	width:48%;
+	height:50%;
+
+}
+.news-items img{
+	width:100%;
+	height:60%;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
 }
 .footer{
 	width:100%;
@@ -197,8 +249,12 @@ img{
 	background-color:#009247;
 }
 .project-info button:hover{
+
 	color:yellow;
 	cursor:pointer;
+}
+.news-items  p{
+	font-size:70%:
 }
 .proj-title{
 	color:Black;
