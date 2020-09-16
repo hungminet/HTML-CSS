@@ -1,0 +1,146 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:"Segoe UI";
+}
+body{background-color:#ffffff6;}
+.wrapper{
+	height:auto;
+	width:1280px;
+	margin:0 auto;
+}
+.line-20{clear:both;margin-bottom:20px;}
+.line-10{clear:both;margin-bottom:20px;}
+
+.header{
+	width:100%;
+	height:100px;
+	border-style:dashed;
+	border-color:blue;
+}
+.logo-contact{
+	width:100%;
+	height:70px;
+}
+.navigator{
+	 text-transform: uppercase;
+	width:100%;
+	height:30px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/	
+}
+.navigator ul{
+	list-style-type:none;
+	text-align:center;
+	/*green*/background-color:#219e06;
+}
+.navigator ul li {
+	display: inline-table;
+	width:auto;
+	max-width:220px;
+	line-height:30px;
+	padding: 0px 5px ;
+	height:30px;
+	
+}
+.navigator ul li a{
+	text-decoration:none;
+	color:#f1f1f1;
+	display:block;
+	font-weight:bold;
+}
+.navigator ul li :hover{
+	color:yellow;
+	
+	
+}
+.navigator ul li > .sub-menu{
+	display:none;
+	
+}
+.navigator ul li:hover .sub-menu{
+	display:block;
+	
+}
+.side-bar{
+	float:left;
+	height:1000px;
+	width:20%;
+	border:1px dashed blue
+	
+}
+.client-support{
+	width:100%;
+	height:auto;
+	
+
+}
+.sp-info{
+	background-color:#ffffff;
+	height:50px;
+	width:100%;
+	
+	float:left;
+}
+.icon-info-bot{
+	width:20%;
+	height:100%;
+	float:left;
+
+}
+.bot-name ,.bot-phone{
+	padding-left:5px;
+	height:50%;
+	width:80%;
+	float:right;
+}
+.bot-phone{
+	font-weight:bold;
+	color:red;
+	color:#f51f43;
+}
+.link-area{
+	background-color:#f1f1f1;
+	text-align:center;
+	font-size:1em;
+	height:auto;
+	width:100%;
+}
+.icon-bar{
+	height:32px;
+	width:100%;
+	padding-top:1px;
+	text-align:center;
+	/*green*/background-color:#219e06;
+	color:white;
+}
+.containter{
+	height:100%;
+	width:70%;
+	margin: 0 auto;
+	text-align:center;
+	
+}
+.icon{
+	height:100%;
+	width:32px;
+	float:left;
+	
+}
+.title-bar{
+	float:left;	
+	height:100%;
+	width:auto;
+	font-weight:bold;
+	font-size:0.7em;
+	padding:0.7em;
+	text-transform:uppercase;
+}
+img {height:100%;width:100%;}
+.content{
+	float:right;
+	height:1000px;
+	width:80%;
+	border:1px dashed blue
+}
+
